@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129342D0201B0A8133364A51 /* libPods-SocketSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB87208B46C9515DFC0EFC6 /* libPods-SocketSocket.a */; };
+		2AAD76B1A6F4D0C0D1E84CF1 /* libPods-SocketSocketUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB22507D38D90010DCF330F7 /* libPods-SocketSocketUITests.a */; };
+		6DF0AECC5FED079A56B76455 /* libPods-SocketSocketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9621B7E2B1526FCA46E757 /* libPods-SocketSocketTests.a */; };
+		B70A9329242C86880004C5D0 /* SocMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A9328242C86880004C5D0 /* SocMessageListViewController.m */; };
+		B70A932E242C8D820004C5D0 /* SocMessageListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A932D242C8D820004C5D0 /* SocMessageListViewModel.m */; };
+		B70A9331242C8D9B0004C5D0 /* SocMessageListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A9330242C8D9B0004C5D0 /* SocMessageListModel.m */; };
+		B70A9334242C8E500004C5D0 /* SocMessageListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A9333242C8E500004C5D0 /* SocMessageListTableView.m */; };
+		B70A9337242C9BF10004C5D0 /* SocNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A9336242C9BF10004C5D0 /* SocNavigationController.m */; };
+		B70A933A242C9D030004C5D0 /* SocTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A9339242C9D030004C5D0 /* SocTabbarViewController.m */; };
 		B7E4F6CD2429AED400069693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E4F6CC2429AED400069693 /* AppDelegate.m */; };
 		B7E4F6D02429AED400069693 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E4F6CF2429AED400069693 /* SceneDelegate.m */; };
 		B7E4F6D32429AED400069693 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E4F6D22429AED400069693 /* ViewController.m */; };
@@ -36,6 +45,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9621B7E2B1526FCA46E757 /* libPods-SocketSocketTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketSocketTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3346885108BC01431DBFFA10 /* Pods-SocketSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketSocket.debug.xcconfig"; path = "Target Support Files/Pods-SocketSocket/Pods-SocketSocket.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD62E29773B4D52585B8063 /* Pods-SocketSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketSocket.release.xcconfig"; path = "Target Support Files/Pods-SocketSocket/Pods-SocketSocket.release.xcconfig"; sourceTree = "<group>"; };
+		4E0E52D149624C7209BC79F1 /* Pods-SocketSocketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketSocketTests.release.xcconfig"; path = "Target Support Files/Pods-SocketSocketTests/Pods-SocketSocketTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2463F533A908392E08ED0EC /* Pods-SocketSocketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketSocketUITests.debug.xcconfig"; path = "Target Support Files/Pods-SocketSocketUITests/Pods-SocketSocketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B70A9327242C86880004C5D0 /* SocMessageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocMessageListViewController.h; sourceTree = "<group>"; };
+		B70A9328242C86880004C5D0 /* SocMessageListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocMessageListViewController.m; sourceTree = "<group>"; };
+		B70A932C242C8D820004C5D0 /* SocMessageListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocMessageListViewModel.h; sourceTree = "<group>"; };
+		B70A932D242C8D820004C5D0 /* SocMessageListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocMessageListViewModel.m; sourceTree = "<group>"; };
+		B70A932F242C8D9B0004C5D0 /* SocMessageListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocMessageListModel.h; sourceTree = "<group>"; };
+		B70A9330242C8D9B0004C5D0 /* SocMessageListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocMessageListModel.m; sourceTree = "<group>"; };
+		B70A9332242C8E500004C5D0 /* SocMessageListTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocMessageListTableView.h; sourceTree = "<group>"; };
+		B70A9333242C8E500004C5D0 /* SocMessageListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocMessageListTableView.m; sourceTree = "<group>"; };
+		B70A9335242C9BF10004C5D0 /* SocNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocNavigationController.h; sourceTree = "<group>"; };
+		B70A9336242C9BF10004C5D0 /* SocNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocNavigationController.m; sourceTree = "<group>"; };
+		B70A9338242C9D030004C5D0 /* SocTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocTabbarViewController.h; sourceTree = "<group>"; };
+		B70A9339242C9D030004C5D0 /* SocTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocTabbarViewController.m; sourceTree = "<group>"; };
 		B7E4F6C82429AED400069693 /* SocketSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E4F6CB2429AED400069693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7E4F6CC2429AED400069693 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +80,10 @@
 		B7E4F6EE2429AED700069693 /* SocketSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E4F6F22429AED700069693 /* SocketSocketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketSocketUITests.m; sourceTree = "<group>"; };
 		B7E4F6F42429AED700069693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC07C32363F1402997DB3606 /* Pods-SocketSocketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketSocketTests.debug.xcconfig"; path = "Target Support Files/Pods-SocketSocketTests/Pods-SocketSocketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDA1E244A20AD451EFC21E0E /* Pods-SocketSocketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketSocketUITests.release.xcconfig"; path = "Target Support Files/Pods-SocketSocketUITests/Pods-SocketSocketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDB87208B46C9515DFC0EFC6 /* libPods-SocketSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB22507D38D90010DCF330F7 /* libPods-SocketSocketUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketSocketUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129342D0201B0A8133364A51 /* libPods-SocketSocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF0AECC5FED079A56B76455 /* libPods-SocketSocketTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +107,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AAD76B1A6F4D0C0D1E84CF1 /* libPods-SocketSocketUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B70A9322242C85800004C5D0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B70A9325242C85BB0004C5D0 /* controller */,
+				B70A9323242C85BB0004C5D0 /* model */,
+				B70A9326242C85BB0004C5D0 /* view */,
+				B70A9324242C85BB0004C5D0 /* viewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B70A9323242C85BB0004C5D0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B70A932F242C8D9B0004C5D0 /* SocMessageListModel.h */,
+				B70A9330242C8D9B0004C5D0 /* SocMessageListModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B70A9324242C85BB0004C5D0 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B70A932C242C8D820004C5D0 /* SocMessageListViewModel.h */,
+				B70A932D242C8D820004C5D0 /* SocMessageListViewModel.m */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		B70A9325242C85BB0004C5D0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B70A9327242C86880004C5D0 /* SocMessageListViewController.h */,
+				B70A9328242C86880004C5D0 /* SocMessageListViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B70A9326242C85BB0004C5D0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B70A9332242C8E500004C5D0 /* SocMessageListTableView.h */,
+				B70A9333242C8E500004C5D0 /* SocMessageListTableView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B70A932A242C86D90004C5D0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B70A932B242C86D90004C5D0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B70A9335242C9BF10004C5D0 /* SocNavigationController.h */,
+				B70A9336242C9BF10004C5D0 /* SocNavigationController.m */,
+				B70A9338242C9D030004C5D0 /* SocTabbarViewController.h */,
+				B70A9339242C9D030004C5D0 /* SocTabbarViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		B7E4F6BF2429AED400069693 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +186,8 @@
 				B7E4F6E62429AED700069693 /* SocketSocketTests */,
 				B7E4F6F12429AED700069693 /* SocketSocketUITests */,
 				B7E4F6C92429AED400069693 /* Products */,
+				BF2E523C8256A10FBD77C23E /* Pods */,
+				D30FD35E21D0AF3890CC722C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +204,9 @@
 		B7E4F6CA2429AED400069693 /* SocketSocket */ = {
 			isa = PBXGroup;
 			children = (
+				B70A932B242C86D90004C5D0 /* Base */,
+				B70A932A242C86D90004C5D0 /* Common */,
+				B70A9322242C85800004C5D0 /* Home */,
 				B7E4F6CB2429AED400069693 /* AppDelegate.h */,
 				B7E4F6CC2429AED400069693 /* AppDelegate.m */,
 				B7E4F6CE2429AED400069693 /* SceneDelegate.h */,
@@ -137,6 +240,29 @@
 			path = SocketSocketUITests;
 			sourceTree = "<group>";
 		};
+		BF2E523C8256A10FBD77C23E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3346885108BC01431DBFFA10 /* Pods-SocketSocket.debug.xcconfig */,
+				3BD62E29773B4D52585B8063 /* Pods-SocketSocket.release.xcconfig */,
+				BC07C32363F1402997DB3606 /* Pods-SocketSocketTests.debug.xcconfig */,
+				4E0E52D149624C7209BC79F1 /* Pods-SocketSocketTests.release.xcconfig */,
+				B2463F533A908392E08ED0EC /* Pods-SocketSocketUITests.debug.xcconfig */,
+				BDA1E244A20AD451EFC21E0E /* Pods-SocketSocketUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D30FD35E21D0AF3890CC722C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB87208B46C9515DFC0EFC6 /* libPods-SocketSocket.a */,
+				0C9621B7E2B1526FCA46E757 /* libPods-SocketSocketTests.a */,
+				FB22507D38D90010DCF330F7 /* libPods-SocketSocketUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7E4F6F72429AED700069693 /* Build configuration list for PBXNativeTarget "SocketSocket" */;
 			buildPhases = (
+				90BAFD8B84B34EDFA5A42857 /* [CP] Check Pods Manifest.lock */,
 				B7E4F6C42429AED400069693 /* Sources */,
 				B7E4F6C52429AED400069693 /* Frameworks */,
 				B7E4F6C62429AED400069693 /* Resources */,
@@ -161,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7E4F6FA2429AED700069693 /* Build configuration list for PBXNativeTarget "SocketSocketTests" */;
 			buildPhases = (
+				1E42AB257E856D85455EE1AE /* [CP] Check Pods Manifest.lock */,
 				B7E4F6DF2429AED700069693 /* Sources */,
 				B7E4F6E02429AED700069693 /* Frameworks */,
 				B7E4F6E12429AED700069693 /* Resources */,
@@ -179,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7E4F6FD2429AED700069693 /* Build configuration list for PBXNativeTarget "SocketSocketUITests" */;
 			buildPhases = (
+				573E9671C1884B1958D16F6E /* [CP] Check Pods Manifest.lock */,
 				B7E4F6EA2429AED700069693 /* Sources */,
 				B7E4F6EB2429AED700069693 /* Frameworks */,
 				B7E4F6EC2429AED700069693 /* Resources */,
@@ -199,6 +328,7 @@
 		B7E4F6C02429AED400069693 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Soc;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "黎永杰";
 				TargetAttributes = {
@@ -262,15 +392,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E42AB257E856D85455EE1AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocketSocketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		573E9671C1884B1958D16F6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocketSocketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90BAFD8B84B34EDFA5A42857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocketSocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7E4F6C42429AED400069693 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70A9331242C8D9B0004C5D0 /* SocMessageListModel.m in Sources */,
+				B70A932E242C8D820004C5D0 /* SocMessageListViewModel.m in Sources */,
 				B7E4F6D32429AED400069693 /* ViewController.m in Sources */,
 				B7E4F6CD2429AED400069693 /* AppDelegate.m in Sources */,
+				B70A933A242C9D030004C5D0 /* SocTabbarViewController.m in Sources */,
 				B7E4F6DE2429AED700069693 /* main.m in Sources */,
+				B70A9334242C8E500004C5D0 /* SocMessageListTableView.m in Sources */,
+				B70A9329242C86880004C5D0 /* SocMessageListViewController.m in Sources */,
 				B7E4F6D02429AED400069693 /* SceneDelegate.m in Sources */,
+				B70A9337242C9BF10004C5D0 /* SocNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +642,7 @@
 		};
 		B7E4F6F82429AED700069693 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3346885108BC01431DBFFA10 /* Pods-SocketSocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,7 +652,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cmic..SocketSocket;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmic.SocketSocket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +660,7 @@
 		};
 		B7E4F6F92429AED700069693 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD62E29773B4D52585B8063 /* Pods-SocketSocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,7 +670,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cmic..SocketSocket;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmic.SocketSocket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +678,7 @@
 		};
 		B7E4F6FB2429AED700069693 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC07C32363F1402997DB3606 /* Pods-SocketSocketTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +699,7 @@
 		};
 		B7E4F6FC2429AED700069693 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0E52D149624C7209BC79F1 /* Pods-SocketSocketTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +720,7 @@
 		};
 		B7E4F6FE2429AED700069693 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2463F533A908392E08ED0EC /* Pods-SocketSocketUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4K6NVBM4HV;
@@ -529,6 +739,7 @@
 		};
 		B7E4F6FF2429AED700069693 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA1E244A20AD451EFC21E0E /* Pods-SocketSocketUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4K6NVBM4HV;

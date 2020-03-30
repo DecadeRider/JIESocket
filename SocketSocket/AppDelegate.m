@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SocTabbarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (@available(iOS 13.0, *)) {
+      
+    } else {
+          
+        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        self.window.backgroundColor = [UIColor whiteColor];
+        self.window.layer.masksToBounds = YES;
+        
+        SocTabbarViewController *tabbarControler = [[SocTabbarViewController alloc] init];
+        
+        self.window.rootViewController = tabbarControler;
+        
+        [self.window makeKeyAndVisible];
+            
+    }
+    
     return YES;
 }
 
